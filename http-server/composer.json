@@ -1,0 +1,22 @@
+{
+    "name": "adeelahmadk/http-server",
+    "description": "A http server with modular middleware.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adeelahmadk\\HttpServer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adeel Ahmad",
+            "email": "6880680+adeelahmadk@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "react/event-loop": "^1.5.0",
+        "react/http": "^1.11.0"
+    }
+}
